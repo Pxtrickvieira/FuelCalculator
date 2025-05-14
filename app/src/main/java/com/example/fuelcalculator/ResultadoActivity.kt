@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
 class ResultadoActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -30,7 +31,6 @@ class ResultadoActivity : AppCompatActivity() {
         val txtPrecoResult = findViewById<TextView>(R.id.txt_result_valor)
         val txtConsumoResult = findViewById<TextView>(R.id.txt_result_consumo)
         val txtKmResult = findViewById<TextView>(R.id.txt_result_km)
-
 
         txtPrecoResult.text = preco.toString()
         txtConsumoResult.text = consumo.toString()
