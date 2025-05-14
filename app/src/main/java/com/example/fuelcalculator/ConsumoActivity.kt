@@ -35,8 +35,9 @@ class ConsumoActivity : AppCompatActivity() {
                 intent.putExtra("Consumo", consumo)
                 startActivity(intent)
             } else {
+
                 Toast.makeText(this, "Consumo inválido", Toast.LENGTH_LONG).show()
-            }
+                }
             }
         }
     }
