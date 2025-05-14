@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FuelCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorBackArrow">@color/black</item>
+    </style>
+
+    <style name="Theme.FuelCalculator" parent="Base.Theme.FuelCalculator" />
+</resources>
