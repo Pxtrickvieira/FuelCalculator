@@ -14,7 +14,7 @@ class ConsumoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_consumo)
-
+        
         val btnVoltar = findViewById<ImageButton>(R.id.image_back_consumo)
         val edtCosumo = findViewById<TextInputEditText>(R.id.tie_consumo)
         val btnProximo = findViewById<Button>(R.id.btn_proximo_consumo)
